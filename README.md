@@ -1,11 +1,14 @@
 # Pixel Snapper
 ![User Interface](imgs/Example.png)
 An advanced pixel art resampling, snapping, and optimization tool built
-for serious production workflows.
+for serious production workflows. 
+
+Built in a day. 
+Will continue to be updated during Cogheart's production.
 
 Pixel Snapper is a browser-based pixel processing suite originally
 developed for **Cogheart**, a large-scale online sandbox MMO. It goes
-far beyond basic resizing --- it performs structural grid detection,
+far beyond basic resizing, it performs structural grid detection,
 palette analysis, pixel snapping, cleanup passes, and export preparation
 tailored for game engines and shader pipelines.
 
@@ -42,7 +45,7 @@ production-grade asset pipelines.
 
 ### Palette & Quantization Control
 
--   2--256 color quantization
+-   2-256 color quantization
 -   Adaptive palette budgeting
 -   Palette clamp control
 -   Ordered dithering
@@ -96,10 +99,10 @@ Responsive UI during processing
 
 ## Architecture Overview
 
--   `index.html` -- UI shell\
--   `styles.css` -- Themed UI styling\
--   `main.js` -- App orchestration, state, persistence, UI binding\
--   `pixel-snapper.js` -- Core snapping + quantization engine\
+-   `index.html` -- UI shell
+-   `styles.css` -- Themed UI styling
+-   `main.js` -- App orchestration, state, persistence, UI binding
+-   `pixel-snapper.js` -- Core snapping + quantization engine
 -   `processing-worker.js` -- Worker execution layer
 
 All processing is performed client-side using ImageData buffers and
