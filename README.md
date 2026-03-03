@@ -1,5 +1,5 @@
 # Pixel Snapper
-
+![User Interface](imgs/Example.png)
 An advanced pixel art resampling, snapping, and optimization tool built
 for serious production workflows.
 
